@@ -1,8 +1,12 @@
+package model;
+
+import model.model.*;
+
 public class Main {
 
  public static void main(String[] args) {
 
-  Tracker repo =
+  ItemRepository repo =
           new InMemoryItemRepository();
 
   System.out.println("CREATE");
